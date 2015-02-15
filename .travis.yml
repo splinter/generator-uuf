@@ -1,0 +1,6 @@
+language: node_js
+node_js:
+  - '0.10'
+before_install:
+  - currentfolder=${PWD##*/}
+  - if [ "$currentfolder" != 'generator-uuf' ]; then cd .. && eval "mv $currentfolder generator-uuf" && cd generator-uuf; fi
