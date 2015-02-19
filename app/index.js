@@ -36,7 +36,7 @@ module.exports = yeoman.generators.Base.extend({
         this.mkdir(this.appName);
         this.destinationRoot(this.appName);
         this.directory('lib','lib');
-        this.mkdir('components');
+        this.mkdir('units');
         this.mkdir('pages');
         this.mkdir('layouts');
         //var files = ['fuse-router.js','fuse.jag','fuse.js','handlebars-helpers.js','handlebars-v2.0.0.js']
