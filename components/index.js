@@ -85,7 +85,7 @@ module.exports = generators.NamedBase.extend({
     writing: function() {
         var componentName = this.name;
         var destinationRoot = this.destinationRoot();
-        this.destinationRoot('components');
+        this.destinationRoot('units');
         //Create the component directory
         this.mkdir(this.name);
         if (this.hasComponentJSON) {
