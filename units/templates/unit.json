@@ -1,0 +1,4 @@
+{
+    <% if ( (hasParentComponent) && (parentComponent) ) {  %>"extends" : "<%= parentComponent %>",<% } %>
+    <% if ((hasPredicate) && (predicate)) { %>"predicate": "<%= predicate %>"<% } %>
+}

@@ -18,12 +18,12 @@ Syntax: yo uuf  < app-name >
 	yo uuf my-app
 ```
 
-###To generate a component
+###To generate a unit
 
-Syntax:  yo uuf:components < component-name >
+Syntax:  yo uuf:units < unit-name >
 
 ```bash
-	yo uuf:components my-logo
+	yo uuf:units my-logo
 ```
 
 ###To generate a layout 
