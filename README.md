@@ -8,7 +8,11 @@ Installation
 The following instructions are temporary steps in order to setup th generator for testing:
 
 1. Clone this repository
-2. Type npm link  to create a symbolic link to the global modules folder
+2. Navigate inside the repository
+3. Type the following command to create a symbolic link to the global modules folder:
+```bash
+	npm link
+```
 
 
 Usage
